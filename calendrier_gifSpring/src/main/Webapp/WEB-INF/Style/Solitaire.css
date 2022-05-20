@@ -1,0 +1,111 @@
+@charset "ISO-8859-1";
+
+body {
+	width: 1500px;
+	margin: auto;
+	background-color: rgb(63, 100, 82)
+}
+
+header {
+	background-color: rgb(63, 100, 82);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	display: inline-block;
+	text-align: center; 
+	color: rgb(255, 177, 177);
+	text-decoration: none;
+}
+
+a.Deco {
+	margin-top: 20px;
+	background-color: rgb(255, 177, 177);
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: rgb(63, 100, 82);
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+h1 {
+	color: rgb(255, 177, 177);
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	color: rgb(255, 177, 177);
+	text-align: center;
+}
+
+div.Ut {
+	color: rgb(255, 157, 157);
+	text-decoration: underline;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+}
+
+div.Donnees {
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+}
+
+form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 200px;
+	margin-left: -150px;
+	margin-top: -100px
+}
+
+label {
+	color: rgb(255, 177, 177);
+	display: block;
+	width: 100px;
+	float: left;
+}
+
+.button {
+	margin-top: 20px;
+	background-color: rgb(255, 177, 177);
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+table {
+	border: solid;
+	margin: auto;
+	margin-top: 50px;
+	width: 1500px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	color: rgb(255, 177, 177);
+}
+
+th {
+	width: 250px;
+	height: 70px;
+	font-size: 30px;
+}
+
+td {
+	height: 250px;
+}
+
+img {
+	max-width: 200px;
+}

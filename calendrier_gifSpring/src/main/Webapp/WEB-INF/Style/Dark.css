@@ -1,0 +1,85 @@
+@charset "ISO-8859-1";
+
+body {
+	width: 1200px;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.7)
+}
+
+header {
+	background-color: rgba(0, 0, 0, 0.7);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(203, 92, 104);
+}
+
+h1 {
+	color: rgb(203, 92, 104);
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+div.index {
+	margin: auto;
+}
+
+label {
+	color: rgb(203, 92, 104);
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+.button {
+	margin-top: 20px;
+	background-color: rgb(203, 92, 104);
+	border-radius: 20px;
+	padding: 10px 20px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+table {
+	width: 1000px;
+	font-size: 20px;
+	border: solid;
+	margin: auto;
+	color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	vertical-align: middle;
+}
+
+th {
+	width: 200px;
+	height: 70px;
+	font-size: 30px;
+}
+
+td {
+	height: 200px;
+}
+
+img {
+	max-width: 150px;
+}
+
+.emojis {
+	margin: 20px 0px; 
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	list-style-type: none;
+}
